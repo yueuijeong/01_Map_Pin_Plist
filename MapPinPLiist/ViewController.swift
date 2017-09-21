@@ -62,6 +62,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
             print("contents의 값은 nil")
         }
         
+        
+        //전체 핀이 지도에 보이도록 함
+       
+        
         myMapView.showAnnotations(annotations, animated: true)
         myMapView.addAnnotations(annotations)
 
